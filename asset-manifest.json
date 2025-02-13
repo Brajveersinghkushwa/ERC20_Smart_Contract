@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Brajveersinghkushwa/ERC20_Smart_Contract.git/static/css/main.8d2a4f38.css",
+    "main.js": "/Brajveersinghkushwa/ERC20_Smart_Contract.git/static/js/main.a9e70626.js",
+    "index.html": "/Brajveersinghkushwa/ERC20_Smart_Contract.git/index.html",
+    "main.8d2a4f38.css.map": "/Brajveersinghkushwa/ERC20_Smart_Contract.git/static/css/main.8d2a4f38.css.map",
+    "main.a9e70626.js.map": "/Brajveersinghkushwa/ERC20_Smart_Contract.git/static/js/main.a9e70626.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d2a4f38.css",
+    "static/js/main.a9e70626.js"
+  ]
+}
