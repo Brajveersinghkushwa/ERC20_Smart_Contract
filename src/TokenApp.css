@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+/* Subheadings */
+h3 {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, #ffcc00, #ff9900);
+    color: #121212;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #ff9900, #ffcc00);
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ffcc00;
+    background: #282828;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #ff9900;
+    outline: none;
+}
+
+/* Connected Account Info */
+p {
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    div {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
